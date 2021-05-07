@@ -14,7 +14,7 @@ function deObjetoAmatriz(objeto){
   for(let clave in objeto){
     array.push([clave, objeto[clave]])
   }
-  return array
+  return array;
 }
 
 
